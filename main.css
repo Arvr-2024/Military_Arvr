@@ -1,0 +1,96 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #636161;
+  padding: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+.register-logo {
+  text-align: center;
+  margin-top: 100px;
+}
+.register-logo img {
+  width: 150px; /* Adjust the size as needed */
+  height: auto;
+}
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #636161;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.weapon {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.weapon img {
+  width: 20%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.ar-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 20%;
+  text-align: center;
+}
+.ar-button:hover {
+  background-color: #45a049;
+}
